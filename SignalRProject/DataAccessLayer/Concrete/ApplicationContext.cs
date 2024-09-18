@@ -8,11 +8,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Concrete
 {
-    public class AppContext:DbContext
+    public class ApplicationContext:DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-
+            optionsBuilder.UseSqlServer("Server=M0027650601418\\SQLEXPRESS;Initial Catalog=SignalDB;Integrated Security=True;TrustServerCertificate=True;"
+  );
         }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Booking> Bookings { get; set; }
