@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "94bxuoIsguPYgcMC2umPfEqEYxC1SA2fmjjsVIo5//GF7bU4g6RIKBXJ6AZtC+5ReoEPIPPiDWVuYEKeYBB2xQ==",
+  "success": true,
+  "projectFilePath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\EntityLayer\\EntityLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\41860127650\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\41860127650\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\41860127650\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
