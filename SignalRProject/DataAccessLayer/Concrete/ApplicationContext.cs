@@ -12,7 +12,6 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=M0027650601418\\SQLEXPRESS;Initial Catalog=SignalDB;Integrated Security=True;TrustServerCertificate=True;"
   );
         }
         public DbSet<About> Abouts { get; set; }
