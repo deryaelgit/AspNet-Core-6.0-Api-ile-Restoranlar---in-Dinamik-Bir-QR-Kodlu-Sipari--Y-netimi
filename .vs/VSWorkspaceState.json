@@ -1,4 +1,11 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\SignalRProject",
+    "\\SignalRProject\\DataAccessLayer",
+    "\\SignalRProject\\DataAccessLayer\\Abstract",
+    "\\SignalRProject\\DataAccessLayer\\Concrete"
+  ],
+  "SelectedNode": "\\SignalRProject\\DataAccessLayer",
   "PreviewInSolutionExplorer": false
 }

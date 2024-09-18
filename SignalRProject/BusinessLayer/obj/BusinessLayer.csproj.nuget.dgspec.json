@@ -27,6 +27,174 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\41860127650\\.nuget\\packages\\",
+        "outputPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\41860127650\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\EntityLayer\\EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\EntityLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\41860127650\\.nuget\\packages\\",
+        "outputPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\EntityLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\41860127650\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },

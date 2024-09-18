@@ -782,6 +782,16 @@
             "rid": "win"
           }
         }
+      },
+      "EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EntityLayer.dll": {}
+        }
       }
     }
   },
@@ -2003,10 +2013,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../EntityLayer/EntityLayer.csproj",
+      "msbuildProject": "../EntityLayer/EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "EntityLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.21",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.21",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.21",
@@ -2039,7 +2055,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\EntityLayer\\EntityLayer.csproj": {
+              "projectPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\EntityLayer\\EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
