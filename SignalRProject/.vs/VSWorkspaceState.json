@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DataAccessLayer",
     "\\DataAccessLayer\\Concrete"
   ],
-  "SelectedNode": "\\SignalRProject.sln",
   "PreviewInSolutionExplorer": false
 }

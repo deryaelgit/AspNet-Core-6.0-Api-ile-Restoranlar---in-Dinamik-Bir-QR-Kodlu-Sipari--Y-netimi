@@ -172,6 +172,75 @@
         }
       }
     },
+    "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DtoLayer\\DtoLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DtoLayer\\DtoLayer.csproj",
+        "projectName": "DtoLayer",
+        "projectPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DtoLayer\\DtoLayer.csproj",
+        "packagesPath": "C:\\Users\\41860127650\\.nuget\\packages\\",
+        "outputPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DtoLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\41860127650\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.26, 6.0.26]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -267,6 +336,9 @@
             "projectReferences": {
               "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\BusinessLayer\\BusinessLayer.csproj": {
                 "projectPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DtoLayer\\DtoLayer.csproj": {
+                "projectPath": "D:\\users\\41860127650\\Desktop\\AspNet Core 6.0 Api ile Restoranlar İçin Dinamik Bir QR Kodlu Sipariş Yönetimi\\SignalRProject\\DtoLayer\\DtoLayer.csproj"
               }
             }
           }
@@ -281,6 +353,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.21, )"
